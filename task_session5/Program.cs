@@ -62,14 +62,14 @@ namespace task_session5
                                 Samll_Number = numbers[i];
                             }
                         }
-                        Console.WriteLine($"Maximum number is:{ Samll_Number}");
+                        Console.WriteLine($"small number is:{ Samll_Number}");
                         break;
                     case "l":
                         int Large_Number = numbers[0];
 
                         for (int i = 1; i < numbers.Count; i++)
                         {
-                            if (numbers[i] < Large_Number)
+                            if (numbers[i] > Large_Number)
                             {
                                 Large_Number = numbers[i];
                             }
